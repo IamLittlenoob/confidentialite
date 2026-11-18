@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité · Akhayn Academy</title>
+<meta name="description" content="Politique de confidentialité de l'application Akhayn Academy.">
+<meta name="robots" content="index, follow">
+<style>
+  :root { --bg: #FDFBF7; --card: #ffffff; --text: #1f2937; --muted: #6b7280; --accent: #064E3B; --gold: #D4AF37; --line: #e5e7eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0b0f0e; --card: #141a18; --text: #e5e7eb; --muted: #9ca3af; --accent: #6ee7b7; --line: #26302d; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Arabic", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.1rem; color: var(--accent); }
+  .logo { width: 38px; height: 38px; border-radius: 50%; background: #064E3B; color: var(--gold); display: grid; place-items: center; font-size: 1.2rem; }
+  .langs { display: flex; gap: 6px; }
+  .langs button { border: 1px solid var(--gold); background: transparent; color: var(--text); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: .85rem; cursor: pointer; }
+  .langs button[aria-pressed="true"] { background: #064E3B; color: #fff; border-color: #064E3B; }
+  h1 { font-size: 1.6rem; line-height: 1.3; margin: 24px 0 4px; color: var(--accent); }
+  .date { color: var(--muted); font-size: .9rem; margin: 0 0 20px; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-inline-start: 4px solid var(--gold); border-radius: 14px; padding: 14px 18px; margin-bottom: 24px; }
+  h2 { font-size: 1.1rem; margin: 28px 0 8px; }
+  ul { padding-inline-start: 1.2rem; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  code { font-size: .9em; background: var(--line); padding: 1px 5px; border-radius: 4px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: .85rem; border-top: 1px solid var(--line); padding-top: 16px; }
+  [data-lang] { display: none; }
+  html[lang="fr"] [data-lang="fr"], html[lang="en"] [data-lang="en"], html[lang="ar"] [data-lang="ar"] { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand"><span class="logo">ن</span>Akhayn Academy</div>
+    <nav class="langs" aria-label="Langue / Language / اللغة">
+      <button type="button" data-set="fr">Français</button>
+      <button type="button" data-set="en">English</button>
+      <button type="button" data-set="ar">العربية</button>
+    </nav>
+  </header>
+
+  <!-- ============================== FRANÇAIS ============================== -->
+  <article data-lang="fr">
+    <h1>Politique de confidentialité</h1>
+    <p class="date">Dernière mise à jour : 18 novembre 2026</p>
+    <div class="summary"><b>En bref :</b> Akhayn Academy ne demande aucun compte et n'a pas de serveur. Votre progression reste sur votre téléphone. Nous ne collectons, ne vendons et ne partageons aucune donnée personnelle.</div>
+
+    <h2>1. Qui sommes-nous ?</h2>
+    <p>Akhayn Academy est une application gratuite pour lire, écouter, apprendre et réviser le Coran, éditée par <b>Akhayn Academy</b>. Pour toute question : <a href="mailto:ianissel2008@gmail.com">ianissel2008@gmail.com</a>.</p>
+
+    <h2>2. Données enregistrées sur votre appareil</h2>
+    <p>Si vous créez un profil, l'application enregistre <b>uniquement sur votre téléphone</b> :</p>
+    <ul>
+      <li>le prénom ou pseudo et l'avatar que vous choisissez ;</li>
+      <li>votre progression : versets et sourates mémorisés, favoris, notes, scores de récitation, badges, série de jours ;</li>
+      <li>vos réglages : langue, thème, taille du texte, récitateur, heure du rappel.</li>
+    </ul>
+    <p>Ces données ne sont jamais envoyées à l'éditeur ni à un tiers. Elles sont effacées si vous supprimez votre profil (Réglages › Mes données) ou désinstallez l'application. La sauvegarde (fichier ou code) n'est créée que lorsque vous la demandez, et c'est vous qui choisissez où l'envoyer.</p>
+
+    <h2>3. Services externes utilisés pour afficher le contenu</h2>
+    <p>Pour charger certains contenus, l'application se connecte à des services tiers. Comme pour toute connexion internet, ils reçoivent votre adresse IP et des informations techniques (type d'appareil, navigateur). Aucune donnée de votre profil ne leur est transmise.</p>
+    <ul>
+      <li><b>Islamic Network</b> (<code>cdn.islamic.network</code>, <code>api.alquran.cloud</code>) : récitations audio et, si nécessaire, texte du Coran ;</li>
+      <li><b>jsDelivr</b> et <b>GitHub</b> (<code>cdn.jsdelivr.net</code>, <code>raw.githubusercontent.com</code>) : textes des hadiths ;</li>
+      <li><b>Google Fonts</b> (<code>fonts.googleapis.com</code>) : polices d'écriture, si elles ne sont pas déjà intégrées à l'application.</li>
+    </ul>
+
+    <h2>4. Micro et reconnaissance vocale</h2>
+    <p>Le micro n'est utilisé que lorsque vous appuyez sur « À mon tour » dans la page Récitation. Votre voix est transformée en texte par le service de reconnaissance vocale de votre appareil (sur Android, généralement fourni par Google), selon ses propres règles de confidentialité. Akhayn Academy n'enregistre ni ne conserve aucun son.</p>
+
+    <h2>5. Notifications</h2>
+    <p>Les rappels quotidiens sont programmés sur votre téléphone, sans serveur. Vous pouvez les désactiver à tout moment dans Réglages › Rappel quotidien ou dans les paramètres Android.</p>
+
+    <h2>6. Autorisations Android</h2>
+    <ul>
+      <li><b>Internet</b> : charger l'audio, les hadiths et certains textes ;</li>
+      <li><b>Micro</b> : uniquement pour l'entraînement à la récitation ;</li>
+      <li><b>Notifications</b> : uniquement pour les rappels que vous activez ;</li>
+      <li><b>Lecture en arrière-plan</b> : continuer la récitation écran éteint.</li>
+    </ul>
+
+    <h2>7. Publicité</h2>
+    <p>La version actuelle de l'application n'affiche aucune publicité et n'utilise aucun outil de mesure d'audience ni de suivi.</p>
+    <!-- SI VOUS AJOUTEZ DES PUBLICITÉS (Google AdMob), remplacez le paragraphe ci-dessus par :
+    <p>L'application affiche des publicités fournies par Google AdMob. AdMob peut collecter l'identifiant publicitaire de votre appareil, votre adresse IP et des données d'utilisation pour afficher et mesurer les publicités. Voir <a href="https://policies.google.com/technologies/ads">les règles de Google</a>. Vous pouvez réinitialiser ou supprimer votre identifiant publicitaire dans les paramètres Android.</p>
+    -->
+
+    <h2>8. Enfants</h2>
+    <p>L'application peut être utilisée à tout âge. Comme elle ne collecte aucune donnée personnelle, aucune information concernant des enfants n'est recueillie par l'éditeur.</p>
+
+    <h2>9. Vos droits</h2>
+    <p>L'éditeur ne détenant aucune donnée vous concernant, vous gardez le contrôle complet : vous pouvez consulter, exporter ou supprimer vos données directement dans l'application. Pour toute question, écrivez à <a href="mailto:ianissel2008@gmail.com">ianissel2008@gmail.com</a>.</p>
+
+    <h2>10. Modifications</h2>
+    <p>Cette politique peut évoluer, par exemple si de nouvelles fonctionnalités sont ajoutées. La date de mise à jour en haut de page sera alors modifiée.</p>
+  </article>
+
+  <!-- ============================== ENGLISH ============================== -->
+  <article data-lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated: November 18, 2026</p>
+    <div class="summary"><b>In short:</b> Akhayn Academy requires no account and has no server. Your progress stays on your phone. We do not collect, sell or share any personal data.</div>
+
+    <h2>1. Who we are</h2>
+    <p>Akhayn Academy is a free app to read, listen to, learn and review the Quran, published by <b>Akhayn Academy</b>. Questions: <a href="mailto:ianissel2008@gmail.com">ianissel2008@gmail.com</a>.</p>
+
+    <h2>2. Data stored on your device</h2>
+    <p>If you create a profile, the app stores <b>only on your phone</b>:</p>
+    <ul>
+      <li>the first name or nickname and avatar you choose;</li>
+      <li>your progress: memorized verses and surahs, favorites, notes, recitation scores, badges, streak;</li>
+      <li>your settings: language, theme, text size, reciter, reminder time.</li>
+    </ul>
+    <p>This data is never sent to the publisher or to any third party. It is erased when you delete your profile (Settings › My data) or uninstall the app. A backup (file or code) is only created when you ask for it, and you choose where to send it.</p>
+
+    <h2>3. External services used to display content</h2>
+    <p>To load some content, the app connects to third-party services. As with any internet connection, they receive your IP address and technical information (device and browser type). No profile data is sent to them.</p>
+    <ul>
+      <li><b>Islamic Network</b> (<code>cdn.islamic.network</code>, <code>api.alquran.cloud</code>): audio recitations and, if needed, the Quran text;</li>
+      <li><b>jsDelivr</b> and <b>GitHub</b> (<code>cdn.jsdelivr.net</code>, <code>raw.githubusercontent.com</code>): hadith texts;</li>
+      <li><b>Google Fonts</b> (<code>fonts.googleapis.com</code>): fonts, when they are not already bundled with the app.</li>
+    </ul>
+
+    <h2>4. Microphone and speech recognition</h2>
+    <p>The microphone is only used when you tap “My turn” on the Recitation page. Your voice is converted to text by your device's speech recognition service (on Android, usually provided by Google), under its own privacy rules. Akhayn Academy does not record or keep any audio.</p>
+
+    <h2>5. Notifications</h2>
+    <p>Daily reminders are scheduled on your phone, without any server. You can turn them off at any time in Settings › Daily reminder or in Android settings.</p>
+
+    <h2>6. Android permissions</h2>
+    <ul>
+      <li><b>Internet</b>: load audio, hadiths and some texts;</li>
+      <li><b>Microphone</b>: only for recitation practice;</li>
+      <li><b>Notifications</b>: only for the reminders you turn on;</li>
+      <li><b>Background playback</b>: keep the recitation playing with the screen off.</li>
+    </ul>
+
+    <h2>7. Advertising</h2>
+    <p>The current version of the app shows no ads and uses no analytics or tracking tools.</p>
+
+    <h2>8. Children</h2>
+    <p>The app can be used at any age. Since it collects no personal data, no information about children is gathered by the publisher.</p>
+
+    <h2>9. Your rights</h2>
+    <p>The publisher holds no data about you, so you stay in full control: you can view, export or delete your data directly in the app. For any question, write to <a href="mailto:ianissel2008@gmail.com">ianissel2008@gmail.com</a>.</p>
+
+    <h2>10. Changes</h2>
+    <p>This policy may change, for example when new features are added. The update date at the top of the page will then be changed.</p>
+  </article>
+
+  <!-- ============================== العربية ============================== -->
+  <article data-lang="ar">
+    <h1>سياسة الخصوصية</h1>
+    <p class="date">آخر تحديث: ١٨ نوفمبر ٢٠٢٦</p>
+    <div class="summary"><b>باختصار:</b> لا يتطلب تطبيق «Akhayn Academy» إنشاء حساب ولا يملك خادمًا. يبقى تقدّمك على هاتفك. نحن لا نجمع أي بيانات شخصية ولا نبيعها ولا نشاركها.</div>
+
+    <h2>١. من نحن</h2>
+    <p>«Akhayn Academy» تطبيق مجاني لقراءة القرآن الكريم والاستماع إليه وحفظه ومراجعته، ينشره <b>Akhayn Academy</b>. للتواصل: <a href="mailto:ianissel2008@gmail.com">ianissel2008@gmail.com</a>.</p>
+
+    <h2>٢. البيانات المحفوظة على جهازك</h2>
+    <p>إذا أنشأت ملفًا شخصيًا، يحفظ التطبيق <b>على هاتفك فقط</b>:</p>
+    <ul>
+      <li>الاسم أو اللقب والصورة الرمزية التي تختارها؛</li>
+      <li>تقدّمك: الآيات والسور المحفوظة، والمفضلة، والملاحظات، ونتائج التلاوة، والأوسمة، وسلسلة الأيام؛</li>
+      <li>إعداداتك: اللغة، والمظهر، وحجم الخط، والقارئ، ووقت التذكير.</li>
+    </ul>
+    <p>لا تُرسَل هذه البيانات أبدًا إلى الناشر ولا إلى أي طرف آخر. وتُحذف عند حذف ملفك الشخصي (الإعدادات › بياناتي) أو عند إزالة التطبيق. لا تُنشأ النسخة الاحتياطية (ملف أو رمز) إلا بطلب منك، وأنت من يختار مكان إرسالها.</p>
+
+    <h2>٣. الخدمات الخارجية المستخدمة لعرض المحتوى</h2>
+    <p>لتحميل بعض المحتوى، يتصل التطبيق بخدمات خارجية. وكما هو الحال مع أي اتصال بالإنترنت، تتلقى هذه الخدمات عنوان IP الخاص بك ومعلومات تقنية (نوع الجهاز والمتصفح). ولا تُرسَل إليها أي بيانات من ملفك الشخصي.</p>
+    <ul>
+      <li><b>Islamic Network</b> (<code>cdn.islamic.network</code>، <code>api.alquran.cloud</code>): التلاوات الصوتية، ونص القرآن عند الحاجة؛</li>
+      <li><b>jsDelivr</b> و<b>GitHub</b> (<code>cdn.jsdelivr.net</code>، <code>raw.githubusercontent.com</code>): نصوص الأحاديث؛</li>
+      <li><b>Google Fonts</b> (<code>fonts.googleapis.com</code>): الخطوط، إن لم تكن مدمجة في التطبيق.</li>
+    </ul>
+
+    <h2>٤. الميكروفون والتعرّف على الصوت</h2>
+    <p>لا يُستخدم الميكروفون إلا عند الضغط على «دوري» في صفحة التلاوة. تُحوَّل تلاوتك إلى نص بواسطة خدمة التعرّف على الصوت في جهازك (وهي عادةً من Google على أندرويد) وفق قواعد الخصوصية الخاصة بها. لا يسجّل التطبيق أي صوت ولا يحتفظ به.</p>
+
+    <h2>٥. الإشعارات</h2>
+    <p>تُبرمَج التذكيرات اليومية على هاتفك دون أي خادم. يمكنك إيقافها في أي وقت من الإعدادات › التذكير اليومي أو من إعدادات أندرويد.</p>
+
+    <h2>٦. أذونات أندرويد</h2>
+    <ul>
+      <li><b>الإنترنت</b>: لتحميل الصوت والأحاديث وبعض النصوص؛</li>
+      <li><b>الميكروفون</b>: للتدرّب على التلاوة فقط؛</li>
+      <li><b>الإشعارات</b>: للتذكيرات التي تفعّلها فقط؛</li>
+      <li><b>التشغيل في الخلفية</b>: لمواصلة التلاوة والشاشة مطفأة.</li>
+    </ul>
+
+    <h2>٧. الإعلانات</h2>
+    <p>لا يعرض الإصدار الحالي من التطبيق أي إعلانات، ولا يستخدم أي أداة لقياس الجمهور أو للتتبّع.</p>
+
+    <h2>٨. الأطفال</h2>
+    <p>يمكن استخدام التطبيق في أي عمر. وبما أنه لا يجمع أي بيانات شخصية، فلا يجمع الناشر أي معلومات عن الأطفال.</p>
+
+    <h2>٩. حقوقك</h2>
+    <p>لا يحتفظ الناشر بأي بيانات عنك، فأنت المتحكّم الكامل: يمكنك عرض بياناتك وتصديرها وحذفها مباشرة من التطبيق. لأي سؤال، راسلنا على <a href="mailto:ianissel2008@gmail.com">ianissel2008@gmail.com</a>.</p>
+
+    <h2>١٠. التعديلات</h2>
+    <p>قد تتغير هذه السياسة، مثلًا عند إضافة ميزات جديدة. وسيُعدَّل حينها تاريخ التحديث في أعلى الصفحة.</p>
+  </article>
+
+  <footer>© 2026 Akhayn Academy</footer>
+</main>
+<script>
+  (function () {
+    var ok = ['fr', 'en', 'ar'];
+    function set(l) {
+      if (ok.indexOf(l) < 0) l = 'fr';
+      document.documentElement.lang = l;
+      document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
+      document.title = { fr: 'Confidentialité · Akhayn Academy', en: 'Privacy Policy · Akhayn Academy', ar: 'سياسة الخصوصية · Akhayn Academy' }[l];
+      var bs = document.querySelectorAll('[data-set]');
+      for (var i = 0; i < bs.length; i++) bs[i].setAttribute('aria-pressed', bs[i].getAttribute('data-set') === l ? 'true' : 'false');
+    }
+    var q = (location.search.match(/[?&]lang=(fr|en|ar)/) || [])[1];
+    var nav = (navigator.language || 'fr').slice(0, 2);
+    set(q || (ok.indexOf(nav) >= 0 ? nav : 'en'));
+    document.querySelector('.langs').addEventListener('click', function (e) {
+      var l = e.target.getAttribute && e.target.getAttribute('data-set');
+      if (l) set(l);
+    });
+  })();
+</script>
+</body>
+</html>
